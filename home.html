@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>This is my website</h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Online Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="padding: 50px">
+            <div class="col-lg-2">
+                <a href='${pageContext.request.contextPath}' class="btn-lg btn-primary" role="button">Home</a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#" class="btn-lg btn-primary" role="button">About Us</a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#" class="btn-lg btn-primary" role="button">Quiz Now</a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#" class="btn-lg btn-primary" role="button">Other</a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#" class="btn-lg btn-primary" role="button">Feedback</a>
+            </div>
+            <div class="col-lg-2">
+                <a href="#" class="btn-lg btn-primary" role="button">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="row" style="padding-top:10px">
+            <div class="col-sm-6" style="padding: 10px">
+                <img src="img-quiz.jpg" alt="test" class="img-responsive">
+                <div class="carousel-caption active align-items-center" style="text-align: center;">
+                    <h1 style="color: blue">QuizBook</h1>
+                    <h1 style="color: black"> <br> </h1>
+                    <h1 style="color: black">New user? Register</h1>
+                    <h1 style="color: black">Play tech quizzes</h1>
+                    <h1 style="color: black">Score against time</h1>
+                    <h1 style="color: black">Learn and Improve</h1>
+                </div>
+        
+            </div>
+            <div class="col-lg-6" style="padding-left: 150px">
+                <div class="login-form">
+                    <form action="/examples/actions/confirmation.php" method="post">
+                        <h2 class="text-center">Log in</h2>       
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Username" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" required="required">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                        </div>
+                        <div class="clearfix">
+                            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                            <a href="#" class="pull-right">Forgot Password?</a>
+                        </div>        
+                    </form>
+                    <p class="text-center"><a href="registration.html">Create an Account</a></p>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>
